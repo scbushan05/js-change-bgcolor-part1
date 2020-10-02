@@ -9,6 +9,6 @@ button.addEventListener('click', () => {
 })
 
 const changeBackgroundColor = () => {
-    const randomNumber = Math.floor((Math.random() * colors.length - 1) + 1);
+    const randomNumber = Math.floor(Math.random() * colors.length);
     document.body.style.background = colors[randomNumber];
 }
