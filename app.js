@@ -12,3 +12,5 @@ const changeBackgroundColor = () => {
     const randomNumber = Math.floor(Math.random() * colors.length);
     document.body.style.background = colors[randomNumber];
 }
+
+changeBackgroundColor();
